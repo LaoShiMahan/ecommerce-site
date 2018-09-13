@@ -7,19 +7,20 @@ import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-// import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
 import Layout from './components/layout';
 
 function main() {
-  ReactDOM.render(
-    <Provider store={createStoreWithMiddleware(reducers)}>
-      <BrowserRouter>
-        <Layout />
-      </BrowserRouter>
-    </Provider>
-    , document.querySelector('.app-wrapper'));
+    ReactDOM.render(
+        <Provider store={createStoreWithMiddleware(reducers)}>
+            <BrowserRouter>
+                <Layout>
+                    
+                </Layout>
+            </BrowserRouter>
+        </Provider>
+        , document.querySelector('.layout-wrapper'));
 }
 
 document.addEventListener('DOMContentLoaded', main);
