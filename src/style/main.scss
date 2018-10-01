@@ -1,7 +1,8 @@
 @import './layout';
 @import './headerNav';
-@import './auth/signIn.scss';
-@import './auth/signUp.scss';
+@import './auth/signIn';
+@import './auth/signUp';
+@import './pageTitle';
 
 html {
     font-size: 62.5%; // 1rem is 10px
