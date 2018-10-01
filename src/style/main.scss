@@ -3,6 +3,7 @@
 @import './auth/signIn';
 @import './auth/signUp';
 @import './pageTitle';
+@import './formFields';
 
 html {
     font-size: 62.5%; // 1rem is 10px
@@ -14,7 +15,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
 }
 
 body {
@@ -25,4 +25,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+
+    font-family: "Open Sans";
+    color: #808080;
 }
