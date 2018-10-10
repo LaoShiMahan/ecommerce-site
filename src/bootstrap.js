@@ -14,6 +14,7 @@ import history from './history';
 import Layout from './components/layout';
 import SignIn from './components/auth/signIn';
 import SignUp from './components/auth/signUp';
+import Account from './components/account/account';
 
 function main() {
     ReactDOM.render(
@@ -21,9 +22,10 @@ function main() {
             <Router history={history}>
                 <Layout>
                     <Switch>
-                        <Route exact path='/' component={SignIn} />
-                        <Route exact path='/signin' component={SignIn} />
-                        <Route exact path='/signup' component={SignUp} />
+                        <Route exact path='/' component={ SignIn } />
+                        <Route exact path='/signin' component={ SignIn } />
+                        <Route exact path='/signup' component={ SignUp } />
+                        <Route exact path='/account' component={ Account } />
                     </Switch>
                 </Layout>
             </Router>
