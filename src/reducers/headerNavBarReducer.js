@@ -13,12 +13,12 @@ export default function(state = INITIAL_STATE, action) {
         case SET_HEADER_LINKS:
             return {
                 ...state,
-                
+                headerLinks: action.payload
             };
         case SET_NAV_BAR_LINKS:
             return {
                 ...state,
-
+                navBarLinks: action.payload
             };
         default:
             return state;

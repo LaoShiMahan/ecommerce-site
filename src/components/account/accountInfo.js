@@ -4,7 +4,7 @@ class AccountInfo extends Component {
     render() {
         return (
             <div>
-                
+                Account Info
             </div>
         );
     }
