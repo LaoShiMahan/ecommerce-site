@@ -8,7 +8,7 @@ class HeaderNavBar extends Component {
                 {
                     this.props.navBarLinks.map((link, index) => {
                         return (
-                            <a className="header-nav-bar__link" key={ index } onClick={ () => console.log("Trying to switch") }>
+                            <a className={ `header-nav-bar__link ${ link.active ? "green" : "" }` } key={ index } onClick={ () => console.log("Trying to switch") }>
                                 { link.title }
                             </a>
                         )
