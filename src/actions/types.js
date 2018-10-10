@@ -1,0 +1,2 @@
+export const SET_HEADER_LINKS = "SET_HEADER_LINKS";
+export const SET_NAV_BAR_LINKS = "SET_NAV_BAR_LINKS";
