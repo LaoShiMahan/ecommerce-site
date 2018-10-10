@@ -9,7 +9,7 @@
         font-weight: 600;
     }
 
-    &__links {
+    &__children {
         display: grid;
         grid-row-gap: 10px;
         font-size: 14px;
@@ -17,5 +17,9 @@
         & > * {
             text-decoration-line: underline;
         }
+    }
+
+    &__info {
+        text-decoration-line: none;
     }
 }
